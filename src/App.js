@@ -1,7 +1,7 @@
 
 import './App.css';
 //otra manera de importar imagenes
-import freecodecampLogo from '../src/imagenes/freecodecamp-logo.png'
+import freecodecampLogo from '../src/imagenes/react200.png'
 //importar componentes
 import Boton from './componentes/Boton';
 import Contador from './componentes/Contador';
@@ -10,7 +10,7 @@ import { useState } from 'react';
 
 function App() {
   //trabajaremos con estados
-  // la variable constara de un arrego con 2 elementos importantes
+  // la variable constara de un arreglo con 2 elementos importantes
   // numClics = es el valor que queremos usar como el estado. estado que vamos 
   // a guardar, usar y actualizar
   // setNumClics = es la funcion que nos permite actualizarlo
@@ -48,6 +48,7 @@ function App() {
         esBotonDeCLic={true} 
         // asignamos la funcion al prop para ser enviado, funcion esta en {}
         manejarClic={manejarClic} />
+        
         <Boton 
         texto='Reiniciar' 
         esBotonDeCLic={false}
